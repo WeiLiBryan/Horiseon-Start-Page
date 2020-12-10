@@ -1,13 +1,16 @@
+/* all elements on page are bordered boxes */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background of webpage is grey */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header background */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* h1 contains "HORISEON" text */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes "SEO" in the header to a different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Positions the attributes toward the top right of the page */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,15 +38,14 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
+/* attribute design within the header */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
+/* attribute text within the header */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +55,7 @@ p {
     font-size: 16px;
 }
 
+/* Main image of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +65,26 @@ p {
     background-position: center;
 }
 
+/* Floats images to the left side of the div */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Floats images to the right side of the div */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Section containing  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Background box for the items containing the "benefits" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,23 +95,27 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Condensed some classes */
+
+/* Condensed */
 .benefit-lead, .benefit-cost, .benefit-brand{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Condensed */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Condensed */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Condensed */
 #search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,10 +125,12 @@ p {
     color: #ffffff;
 }
 
+/* Condensed */
 #search-engine-optimization img, #social-media-marketing img, #online-reputation-management img {
     max-height: 200px;
 }
 
+/* Condensed */
 #search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
