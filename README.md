@@ -12,7 +12,7 @@ Item is html so no installation needed.
 
 ## Website appearance
 
-![Website_image](./images/Horiseon-front-page-demo.png)
+![Website_image](./assets/images/demo.png)
 
 ## Deployed Link
 
